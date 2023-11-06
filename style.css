@@ -2,3 +2,37 @@ html {
   height: 100%;
   width: 100%;
 }
+
+header{
+font-family:Arial, Helvetica, sans-serif;
+background-color: black;
+color: white;
+
+}
+h1{
+  margin-bottom: 0px;
+}
+
+nav{
+  
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  color: darkgray;
+}
+
+main{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+q{
+  font-style: italic;
+}
+
+footer{  
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+}
