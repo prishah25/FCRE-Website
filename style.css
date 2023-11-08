@@ -19,12 +19,13 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   background-color: lightgray;
   padding: 2px;
-  
+
 }
+
 .nav_link {
-  color: darkgray;
+  color: #5A5A5A;
   text-decoration: none;
-  border: 1px solid darkgray;
+  border: 1px solid #5A5A5A;
 }
 
 .nav_link:hover {
@@ -41,7 +42,7 @@ h3 {
   padding: 7px;
 }
 
-h2{
+h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
@@ -54,7 +55,7 @@ p {
   font-size: 12px;
 }
 
-li{
+li {
   font-size: 12px;
 }
 
@@ -70,16 +71,38 @@ q {
   background-color: #E4E3E2;
   margin-bottom: 3px;
   border-radius: 5px;
-  border-color: black;
-  border: 1px solid;
-  
+  border: 1px solid black;
+
 }
 
 
 .events_link {
   color: darkgray;
-  
+
 }
+
+.logistics_links {
+  color: #5A5A5A;
+  background-color: #E4E3E2;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+  list-style: none;
+  margin-bottom: 3px;
+
+}
+
+.LogLinks {
+  text-decoration: none;
+
+}
+
+.logistics_links:hover {
+  color: maroon;
+  background-color: #5A5A5A ;
+}
+
 
 footer {
   font-family: Arial, Helvetica, sans-serif;
@@ -89,5 +112,3 @@ footer {
   font-size: 10px;
   padding: 12px;
 }
-
-
