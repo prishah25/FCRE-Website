@@ -20,7 +20,7 @@ nav {
   background-color: lightgray;
   
 }
-a{
+.nav_link {
   color: darkgray;
 }
 h3 {
