@@ -4,7 +4,7 @@ html {
 }
 
 header {
-  font-family: Arial, Helvetica, sans-serif;
+  
   background-color: black;
   color: white;
 
@@ -30,33 +30,32 @@ nav {
 
 .nav_link:hover {
   color: white;
-  background-color: red;
+  background-color: darkred;
   border: 1px solid white;
 }
 
 h3 {
-  font-size: 18px;
-  background-color: blue;
+  font-size: 25px;
+  background-color: darkblue;
   color: white;
   border-radius: 5px;
   padding: 7px;
+  
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  
   font-size: 20px;
 }
 
-main {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 li {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 q {
@@ -65,7 +64,7 @@ q {
 
 .events_list {
 
-  font-size: 12px;
+  font-size: 15px;
   list-style-type: none;
   padding: 10px;
   background-color: #E4E3E2;
@@ -99,13 +98,24 @@ q {
 }
 
 .logistics_links:hover {
-  color: maroon;
-  background-color: #5A5A5A ;
+  color: darkred;
+  background-color: #5A5A5A;
+}
+
+.EDTitle{
+  font-size: 15px;
+  font-weight: bold;
+  
 }
 
 
-footer {
+
+body{
   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  
   text-align: center;
   background-color: black;
   color: white;
