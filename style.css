@@ -4,7 +4,7 @@ html {
 }
 
 header {
-  
+
   background-color: black;
   color: white;
 
@@ -40,11 +40,11 @@ h3 {
   color: white;
   border-radius: 5px;
   padding: 7px;
-  
+
 }
 
 h2 {
-  
+
   font-size: 20px;
 }
 
@@ -102,23 +102,47 @@ q {
   background-color: #5A5A5A;
 }
 
-.EDTitle{
+.EDTitle {
   font-size: 15px;
   font-weight: bold;
-  
+
 }
 
+.ApprovedOrDeny {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-decoration: none;
+  border: 1px solid #5A5A5A;
+  padding: 5px 10px 5px 10px;
+  color: #5A5A5A
+}
 
+.ApprovedOrDeny:Hover{
+  color: darkred;
+  background-color: darkgray ;
 
-body{
+}
+
+.approve{
+  color: green;
+  font-weight: bold;
+}
+.deny{
+  color:darkred;
+  font-weight: bold;
+}
+
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
-  
+
   text-align: center;
   background-color: black;
   color: white;
   font-size: 10px;
   padding: 12px;
+  margin-top: 10px;
 }
